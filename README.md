@@ -1,5 +1,7 @@
 # AudioSpecNet: Environmental Sound Classification with ResNet-CNN
 
+![preview](./AudioSpecNet.png)
+
 ## Overview
 
 AudioSpecNet implements a comprehensive deep learning pipeline for environmental sound classification using Convolutional Neural Networks (CNNs). The model classifies 50 different environmental sounds from the ESC-50 dataset, including sounds like dog barking, bird chirping, rain, car engines, and more. Built with PyTorch and deployed on Modal's serverless GPU infrastructure, this project demonstrates modern machine learning practices from data preprocessing to production deployment.
@@ -391,8 +393,8 @@ modal>=0.50.0         # Serverless deployment
 #### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd audio-cnn
+git clone https://github.com/ItisSubham/AudioSpecNet-CNN-Modal
+cd AudioSpecNet-CNN-Modal
 ```
 
 #### 2. Create Virtual Environment
@@ -512,7 +514,7 @@ Edit `main.py` to modify:
 ### 📁 Project Structure
 
 ```
-audio-cnn/
+audiospecnet/
 ├── model.py           # CNN architecture definition
 ├── train.py           # Training script with Modal
 ├── main.py            # Inference API with Modal
